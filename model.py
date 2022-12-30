@@ -157,7 +157,7 @@ class ResNet(nn.Module):
     def __init__(self, blocks_num, gvp_num):
         super(ResNet, self).__init__()
         self.in_channel = 96
-        node_input_dim = (1280+768+20+6+512, 50) #1792+768+20
+        node_input_dim = (2586, 50)
         edge_input_dim = (432, 25)
         
         node_hidden_dim = (256, 64)
@@ -192,20 +192,13 @@ class ResNet(nn.Module):
         self.embed_node = nn.Sequential(
             gvp.GVP(node_input_dim, node_hidden_dim, 
                     activations=(None, None), vector_gate=True),
-            gvp.LayerNorm(node_hidden_dim))
-        
-        # self.embed_edge = nn.Sequential(
-        #     gvp.GVP(edge_input_dim, edge_hidden_dim, 
-        #             activations=(None, None), vector_gate=True),
-        #     gvp.LayerNorm(edge_hidden_dim))        
+            gvp.LayerNorm(node_hidden_dim))    
 
         self.gvp_layers = self._make_gvpconv_layer(node_hidden_dim, edge_hidden_dim, gvp_num)
         
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
                 nn.init.kaiming_normal_(m.weight, a=0.01, mode='fan_in',nonlinearity='leaky_relu')
-            # elif isinstance(m, nn.Linear):
-            #     nn.init.xavier_uniform_(m.weight, gain=nn.init.calculate_gain('relu'))
 
     def _make_layer(self, in_channel, out_channel, block_num, dilated_rate):
 
