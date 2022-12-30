@@ -7,6 +7,7 @@ inter-protein contact prediction
   2. [Biopython](https://biopython.org/)
   3. [esm](https://github.com/facebookresearch/esm)
   4. [numpy](https://numpy.org/)
+  5. [GVP](https://github.com/drorlab/gvp-pytorch)
 - #### other packages
   1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src)
   2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln)
