@@ -1,5 +1,5 @@
 # PLMGraph-Inter
-Inter-protein contact prediction based on protien language models embedded geomteric graphs 
+Inter-protein contact prediction based on protien language models embedded geomteric graphs. 
 ![image](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/main_fig.jpg)
 ## Requirements
 - #### python3.8
