@@ -25,7 +25,18 @@ Inter-protein contact prediction based on protien language model embedded geomte
 
 ## Usage
     python predict.py sequenceA msaA pdbA sequenceB msaB pdbB result_path device
+    1.  sequenceA: fasta file corresponding to target A.
+    2.  msaA: a3m file corresponding to target A.
+    3.  pdbA: pdb file corresponding to target A.
+    4.  sequenceB: fasta file corresponding to target B.
+    5.  msaB: a3m file corresponding to target B.
+    6.  pdbB: pdb file corresponding to target B.
+    7.  result_path: /
+    8.  device: cpu, cuda:0, cuda:1, ...
    Where MSA should be derived from Uniref90 or Uniref100 database.
 
 ## Example
     python predict.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_A.pdb ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/1GL1_I.pdb ./example/result 'cpu'
+
+## The output of exmaple(1GL1)
+![image](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/data/plmg.jpg)
