@@ -28,6 +28,8 @@ alnstats = '/home/yunda_si/self/software_p/metapsicov-2.0.3/bin/alnstats'
 hhmake = '/home/yunda_si/self/software_p/hh-suite/build/bin/hhmake'
 hhfilter = '/home/Common_softwares/hh-suite/build/bin/hhfilter'
 LoadHHM = '/mnt/data/yunda_si/self/PythonProjects/PPI_contact/github/plm/LoadHHM.py'
+
+# Location of model weights 
 esm1b_location = "/mnt/data/yunda_si/self/software_p/esm/model/esm1b_t33_650M_UR50S.pt"
 esm_msa1b_location = "/mnt/data/yunda_si/self/software_p/esm/model/esm_msa1b_t12_100M_UR50S.pt"
 esm_if1_location = '/home/yunda_si/yunda_si/self/software_p/esm/model/esm_if1_gvp4_t16_142M_UR50.pt'
@@ -159,8 +161,6 @@ featureA, featureB = load_feature.graph_feature(result_path)
 rt_p2d, sw_p2d = load_feature.paired_feature(result_path)
 
 nodeA = (featureA['nodes_scat'].to(device), featureA['nodes_vec'].to(device))
-print(nodeA[0].shape)
-print(nodeA[1].shape)
 edgeA = (featureA['edge_scat'].to(device), featureA['edge_vec'].to(device))
 edge_indexA = featureA['edge_index'].to(device)
 
