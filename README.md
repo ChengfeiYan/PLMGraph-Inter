@@ -40,3 +40,11 @@ Inter-protein contact prediction based on protien language model embedded geomte
 
 ## The output of exmaple(1GL1)
 ![image](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/data/plmg.jpg)
+
+## Reference  
+Please cite:Protein language model embedded geometric graphs power inter-protein contact prediction
+Yunda Si, Chengfei Yan
+bioRxiv 2023.01.07.523121; doi: https://doi.org/10.1101/2023.01.07.523121
+
+If you meet any problem in installing or running the program, please contact chengfeiyan@hust.edu.cn.
+
