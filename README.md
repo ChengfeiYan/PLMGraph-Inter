@@ -9,9 +9,9 @@ Inter-protein contact prediction based on protien language model embedded geomte
   4. [numpy](https://numpy.org/)
   5. [GVP](https://github.com/drorlab/gvp-pytorch)
   6. [PyG](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
-- #### other packages
-  1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src)
-  2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln)
+- #### other tools
+  1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src/alnstats) (directly download the executable file)
+  2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln) (directly downloay the executable file)
   3. [hh-suite](https://github.com/soedinglab/hh-suite)
   4. [CCMpred](https://github.com/soedinglab/CCMpred)
 
