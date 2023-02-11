@@ -29,7 +29,7 @@ hhmake = '/home/yunda_si/self/software_p/hh-suite/build/bin/hhmake'
 hhfilter = '/home/Common_softwares/hh-suite/build/bin/hhfilter'
 LoadHHM = '/mnt/data/yunda_si/self/PythonProjects/PPI_contact/github/plm/LoadHHM.py'
 
-# Location of model weights of the protein language models (ESM-1b, ESM-MSA-1b and ESM-if1)
+# Location of model weights of the protein language models (ESM-1b, ESM-MSA-1b and ESM-IF1)
 esm1b_location = "/mnt/data/yunda_si/self/software_p/esm/model/esm1b_t33_650M_UR50S.pt"
 esm_msa1b_location = "/mnt/data/yunda_si/self/software_p/esm/model/esm_msa1b_t12_100M_UR50S.pt"
 esm_if1_location = '/home/yunda_si/yunda_si/self/software_p/esm/model/esm_if1_gvp4_t16_142M_UR50.pt'
