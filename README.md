@@ -19,8 +19,8 @@ Inter-protein contact prediction based on protien language model embedded geomte
 ### 1. Install PLMGraph-Inter
     git clone https://github.com/ChengfeiYan/PLMGraph-Inter.git
 ### 2. Modify the path of each tool (CCMpred, alnstats ...) and the paths of the parameter files of the protein language models (ESM-1b, ESM-MSA-1b, ESM-IF1) in predict.py
-  
-### 3. Download the trained models
+### 3. Copy the "esm1b_t33_650M_UR50S-contact-regression.pt" from ./data/regression to the location of ESM-1b's model weights; Copy the "esm_msa1b_t12_100M_UR50S-contact-regression.pt" from ./data/regression to the location of ESM-MSA-1b's model weights;
+### 4. Download the trained models
    Download the trained models from  [trained models](https://drive.google.com/file/d/1Y9eSlIJr-XDG5gREIEeGK4BW_Of0F_UQ/view?usp=sharing), then unzip it into the folder named "model".
 
 ## Usage
