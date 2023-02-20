@@ -9,7 +9,7 @@ Inter-protein contact prediction based on protien language model embedded geomte
   4. [numpy](https://numpy.org/)
   5. [GVP](https://github.com/drorlab/gvp-pytorch)
   6. [PyG](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)
-Please note: To implement protein language models (ESM-1b, ESM-MSA-1b and ESM-IF1 in this study) in [esm](https://github.com/facebookresearch/esm), model weights of these protein language models should be downloaded. The paths of these model weights needs to be set in [predict.py](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/predict.py#L33) later. 
+###Please note: To implement protein language models (ESM-1b, ESM-MSA-1b and ESM-IF1 in this study) in [esm](https://github.com/facebookresearch/esm), model weights of these protein language models should be downloaded. The paths of these model weights needs to be set in [predict.py](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/predict.py#L33) later. 
 - #### other tools
   1. [alnstats](https://github.com/psipred/metapsicov/tree/master/src/alnstats) (directly download the executable file, and change its mode to be executable)
   2. [fasta2aln](https://github.com/kad-ecoli/hhsuite2/blob/master/bin/fasta2aln) (directly downloay the executable file, and change its mode to be exetutable)
