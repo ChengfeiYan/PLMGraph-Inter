@@ -1,5 +1,5 @@
 # PLMGraph-Inter:
-Inter-protein contact prediction from structures of interacting monomers. 
+Inter-protein contact prediction from structures of interacting monomers:
 ![image](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/main_fig.jpg)
 ## Requirements
 - #### python3.8
