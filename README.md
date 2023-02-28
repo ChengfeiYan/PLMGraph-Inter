@@ -46,8 +46,8 @@ It should be noted, we downsampled the MSAs of the example target due to the fil
 The real performance of PLMGraph-Inter for the provided example should be better in real practice. 
 
 
-## Code Ocean Capsule for reproducible run
-https://codeocean.com/capsule/4368186/tree/v1
+## Code Ocean Capsule for reproducible run of PLMGraph-inter
+PLMGraph-inter: https://codeocean.com/capsule/4368186/tree/v1
 
 ## Reference  
 Please cite: Protein language model embedded geometric graphs power inter-protein contact prediction.
