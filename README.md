@@ -48,8 +48,10 @@ The real performance of PLMGraph-Inter for the provided example should be better
 
 ## Code Ocean Capsule for reproducible run of PLMGraph-inter
 **PLMGraph-inter:** https://codeocean.com/capsule/4368186/tree/v1
+
 Please note the Code Ocean output is the sum of 14 indepent predictions  (7 cross validation modes, each perform twice (A-B,B-A)), but the github is the average of the 14 predictions.
-Therefore, the prediction value for each residue pair from the Code Ocean run ranges from 0 to 14, but the prediction value from github code ranges from 0 to 1, which should have no effect on the ranking of the residue pairs. 
+Therefore, the prediction value for each residue pair from the Code Ocean run ranges from 0 to 14, but the prediction value from github code ranges from 0 to 1.
+The ranking of the residue pairs from the Code Ocean run and from implementation of the github code should be exactly the same.
 
 ## Reference  
 Please cite: Protein language model embedded geometric graphs power inter-protein contact prediction.
