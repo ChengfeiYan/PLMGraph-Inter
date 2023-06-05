@@ -198,4 +198,4 @@ for weight_file in weight_list:
     all_preds += pred.T
 
 all_preds = all_preds.numpy()
-np.savetxt(os.path.join(result_path,'pred.txt'), all_preds)
+np.savetxt(os.path.join(result_path,'pred.txt'), all_preds/14)
