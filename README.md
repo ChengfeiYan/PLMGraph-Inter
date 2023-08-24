@@ -40,6 +40,9 @@ Inter-protein contact prediction from structures of interacting proteins:
 ## Example
     python predict.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_A.pdb ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/1GL1_I.pdb ./example/result cpu
 
+## Train
+    The script used to train PLMGraph-Inter is [train.py](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/train.py), which contains all the details of training PLMGraph-Inter, including how to choose the best model, how to calculate the loss, etc.
+    
 ## The output of exmaple(1GL1)
 ![image](https://github.com/ChengfeiYan/PLMGraph-Inter/blob/main/data/plmg.jpg)
 It should be noted, we downsampled the MSAs of the example target due to the file size limiation of github. 
