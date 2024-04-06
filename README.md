@@ -57,6 +57,7 @@ Therefore, the prediction value for each residue pair from the Code Ocean run ra
 The ranking of the residue pairs from the Code Ocean run and from implementation of the github code should be exactly the same.
 
 ## Reference  
-Please citeYunda SiChengfei Yan (2024) Protein language model-embedded geometric graphs power inter-protein contact prediction eLife 12:RP92184.
+Please cite: Yunda Si Chengfei Yan. Protein language model-embedded geometric graphs power inter-protein contact prediction eLife 12:RP92184, 2024.
+
 If you meet any problem in installing or running the program, please contact chengfeiyan@hust.edu.cn.
 
