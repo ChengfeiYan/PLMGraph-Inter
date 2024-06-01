@@ -35,7 +35,7 @@ Inter-protein contact prediction from structures of interacting proteins:
     6.  pdbB: pdb file corresponding to target B.
     7.  result_path: [a directory for the output]
     8.  device: cpu, cuda:0, cuda:1, ...
-   Where MSA should be derived from Uniref90 or Uniref100 database. If you encounter that some residues in the pdb file are missing, you can use [MODELLER](https://salilab.org/modeller/tutorial/iterative.html) to fill in these missing residues.
+   Where MSA should be derived from the Uniref100 database. If you encounter that some residues in the pdb file are missing, you can use [MODELLER](https://salilab.org/modeller/tutorial/iterative.html) to fill in these missing residues.
 
 ## Example
     python predict.py ./example/1GL1_A.fasta ./example/1GL1_A_uniref100.a3m ./example/1GL1_A.pdb ./example/1GL1_I.fasta ./example/1GL1_I_uniref100.a3m ./example/1GL1_I.pdb ./example/result cpu
